@@ -1,0 +1,41 @@
+ .zid {
+/* z-index: 1000   ; */
+height: auto;
+width: 50vw;
+margin: 0 auto;
+
+
+} 
+.caro-container {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: -1;
+}
+.log-in {
+    width: 400px;
+    height: 400px;
+}
+.active {
+    transform: translateX(-100%);
+}
+.sbar {
+    position: fixed;
+        top: 9rem;
+        left: 2rem;
+      
+}
+.sidelist {
+    transition: transform 0.3s linear;
+    position: sticky;
+        top: 13rem;
+        left: 0;
+        height: 400px;
+        width: 150px;
+}
+.sidelist ul li a {
+    color: #eee;
+}
+.tb:hover {
+    color: black;
+}
